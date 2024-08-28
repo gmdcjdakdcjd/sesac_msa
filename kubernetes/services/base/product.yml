@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: pro
-        image: hands-on/product-service
-        imagePullPolicy: Never
+        image: sungho223/product-service
+        imagePullPolicy: IfNotPresent
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "docker"

@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: hands-on/config-server
-        imagePullPolicy: Never
+        image: sungho223/config-server
+        imagePullPolicy: IfNotPresent
         env:
           - name: SPRING_PROFILES_ACTIVE
             value: "docker,native"

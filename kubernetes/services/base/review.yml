@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: rev
-        image: hands-on/review-service
-        imagePullPolicy: Never
+        image: sungho223/review-service
+        imagePullPolicy: IfNotPresent
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "docker"

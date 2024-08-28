@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: auth-server
-        image: hands-on/auth-server:v1
+        image: sungho223/auth-server:v1
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "docker,prod"
